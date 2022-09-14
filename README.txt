@@ -2,8 +2,6 @@ Welcome to my Project Portfolio page.
 
 This page has been created in order to advance my AWS Cloud skills.  
 
-
-
 Credits:
 
 	Demo Images:
