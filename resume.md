@@ -4,7 +4,7 @@ layout: page
 ---
 
 <div class="resume-container">
-    <iframe src="{{ site.url }}/assets/resume.pdf" width="100%" height="800px" style="border: none;">
+    <iframe id="resumeFrame" src="{{ site.url }}/assets/resume.pdf" width="100%" height="1100px" style="border: none;">
         This browser does not support PDFs. Please download the PDF to view it: 
         <a href="{{ site.url }}/assets/resume.pdf">Download PDF</a>
     </iframe>
@@ -20,6 +20,19 @@ layout: page
     .resume-container {
         width: 100%;
         margin: 20px 0;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    .resume-container iframe {
+        min-height: 1100px;
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+    }
+    @media screen and (max-width: 768px) {
+        .resume-container iframe {
+            height: 800px;
+        }
     }
     .resume-download {
         text-align: center;
@@ -37,3 +50,9 @@ layout: page
         background-color: #024ea4;
     }
 </style>
+
+<script>
+    document.getElementById('resumeFrame').onload = function() {
+        this.style.height = this.contentWindow.document.documentElement.scrollHeight + 'px';
+    };
+</script>
