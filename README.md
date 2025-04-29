@@ -1,67 +1,80 @@
-<p align="center">
-    <h2 align="center">Indigo Minimalist Jekyll Template - <a href="https://sergiokopplin.github.io/indigo/">Demo</a></h2>
-</p>
+# Personal Website
 
-<p align="center">This is a simple and minimalist template for Jekyll for those who likes to eat noodles.</p>
+This repository hosts my personal branding website, showcasing my professional journey, projects, and expertise in AWS and cybersecurity.
 
-***
+## 🌐 Website Overview
 
-<p align="center">
-    <b><a href="README.md#what-has-inside">What has inside</a></b>
-    |
-    <b><a href="README.md#setup">Setup</a></b>
-    |
-    <b><a href="README.md#settings">Settings</a></b>
-    |
-    <b><a href="README.md#how-to">How to</a></b>
-</p>
+My personal website serves as a centralized hub for:
+- Professional background and experience
+- Technical blog posts about AWS and cybersecurity
+- Project portfolio
+- Professional resume
+- Contact information
 
-<p align="center">
-    Light and Dark themes.
-</p>
+## 🛠 Technical Stack
 
-<p align="center">
-    <img src="https://raw.githubusercontent.com/sergiokopplin/indigo/gh-pages/assets/screen-shot.png" />
-</p>
+This website is built with:
+- [Jekyll](https://jekyllrb.com/) - Static site generator
+- GitHub Pages - Hosting platform
+- [Indigo Theme](https://github.com/sergiokopplin/indigo) - Base theme with customizations
+- Custom CSS/HTML modifications for personal branding
 
-## What has inside
+## 🚀 Features
 
-- [Jekyll](https://jekyllrb.com/), [Sass](https://sass-lang.com/) ~[RSCSS](https://rscss.io/)~ and [SVG](https://www.w3.org/Graphics/SVG/);
-- Page Speed: [99~Desktop](https://pagespeed.web.dev/analysis/https-sergiokopplin-github-io-indigo/41axptm3as?utm_source=psi&utm_medium=redirect&form_factor=desktop);
+- Responsive design for all devices
+- Dark/Light theme support
+- Blog section for technical content
+- Integrated resume viewer
+- Project showcase
+- Social media integration
+- RSS feed for blog posts
 
-## Setup
+## 📝 Content Updates
 
-0. :star: to the project. :metal:
-1. Fork the project [Indigo](https://github.com/sergiokopplin/indigo/fork)
-2. Edit `_config.yml` with your data
-3. Write some posts :bowtie:
+### Adding New Blog Posts
+1. Create a new markdown file in `_posts` directory
+2. Use the format: `YYYY-MM-DD-title.md`
+3. Include required front matter:
+   ```yaml
+   ---
+   title: "Your Post Title"
+   layout: post
+   date: YYYY-MM-DD HH:MM
+   tag: [tag1, tag2]
+   category: category
+   ---
+   ```
 
-To run locally do the following:
+### Updating Resume
+1. Replace the PDF file in `assets/resume.pdf`
+2. The changes will automatically reflect on the resume page
 
-1. Install [Jekyll](https://jekyllrb.com) and [Bundler](https://bundler.io/).
-2. Clone the forked repo on your machine
-3. Enter the cloned folder via terminal and run:
-```sh
-bundle install
-bundle exec jekyll serve
-```
-4. Open it in your browser: [http://localhost:4000](http://localhost:4000)
+## 💻 Local Development
 
-Or run with [docker](https://github.com/BretFisher/jekyll-serve).
+To run this website locally:
 
-## Settings
+1. Install prerequisites:
+   ```bash
+   gem install bundler jekyll
+   ```
 
-You can customize your site on `_config.yml` file.
+2. Clone the repository:
+   ```bash
+   git clone https://github.com/GioAwsDev/GioAwsDev.github.io.git
+   cd GioAwsDev.github.io
+   ```
 
-## How To?
+3. Install dependencies and run:
+   ```bash
+   bundle install
+   bundle exec jekyll serve
+   ```
 
-Check the [FAQ](./FAQ.md).
+4. Visit `http://localhost:4000` in your browser
 
----
-## License
 
-[MIT](https://kopplin.mit-license.org/) License © Sérgio Kopplin
 
----
+## 📄 License
 
-[![Star History Chart](https://api.star-history.com/svg?repos=sergiokopplin/indigo&type=Date)](https://star-history.com/#sergiokopplin/indigo&Date)
+This website is built on the Indigo theme, which is licensed under the [MIT License](https://kopplin.mit-license.org/) © Sérgio Kopplin.
+Content and personal modifications © 2025 Giovannie Encarnacion.
