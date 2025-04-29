@@ -18,7 +18,7 @@ dark-theme: auto
 # and specify source (external or local).
 resume: true
 resume-external: false
-resume-url: assets/Giovannie_Encarnacion_Resume.pdf
+resume-url: assets/resume.pdf
 
 url: https://gioawsdev.github.io
 # your url: https://USERNAME.github.io
