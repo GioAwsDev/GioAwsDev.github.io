@@ -4,10 +4,21 @@ layout: page
 ---
 
 <div class="resume-container">
-    <iframe id="resumeFrame" src="{{ site.url }}/assets/resume.pdf" width="100%" height="1100px" style="border: none;">
-        This browser does not support PDFs. Please download the PDF to view it: 
-        <a href="{{ site.url }}/assets/resume.pdf">Download PDF</a>
-    </iframe>
+    <object
+        data="{{ site.url }}/assets/resume.pdf"
+        type="application/pdf"
+        width="100%"
+        height="1200px"
+        id="resume-object">
+        <iframe
+            src="https://docs.google.com/viewer?url={{ site.url | url_encode }}/assets/resume.pdf&embedded=true"
+            width="100%"
+            height="1200px"
+            style="border: none;">
+            <p>Your browser does not support PDFs.
+            <a href="{{ site.url }}/assets/resume.pdf">Download the PDF</a> to view it.</p>
+        </iframe>
+    </object>
 </div>
 
 <div class="resume-download">
@@ -19,40 +30,62 @@ layout: page
 <style>
     .resume-container {
         width: 100%;
-        margin: 20px 0;
-        position: relative;
-        padding-bottom: 10px;
+        margin: 20px auto;
+        max-width: 1000px; /* Prevents the resume from getting too wide on large screens */
     }
-    .resume-container iframe {
-        min-height: 1100px;
-        max-width: 100%;
-        margin: 0 auto;
+    
+    object, iframe {
         display: block;
+        border: none;
+        background: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
+    
+    /* Responsive adjustments */
     @media screen and (max-width: 768px) {
+        .resume-container object,
         .resume-container iframe {
-            height: 800px;
+            height: 900px;
         }
     }
+    
     .resume-download {
         text-align: center;
         margin: 20px 0;
     }
+    
     .btn {
         display: inline-block;
-        padding: 10px 20px;
+        padding: 12px 24px;
         background-color: #0366d6;
         color: white;
         text-decoration: none;
         border-radius: 4px;
+        font-weight: 600;
+        transition: background-color 0.2s ease;
     }
+    
     .btn:hover {
         background-color: #024ea4;
+        text-decoration: none;
     }
 </style>
 
 <script>
-    document.getElementById('resumeFrame').onload = function() {
-        this.style.height = this.contentWindow.document.documentElement.scrollHeight + 'px';
-    };
+window.onload = function() {
+    // Adjust height based on content
+    function adjustHeight() {
+        var obj = document.getElementById('resume-object');
+        if (obj) {
+            // Get viewport height
+            var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+            // Set minimum height
+            obj.style.height = Math.max(1200, viewportHeight * 0.85) + 'px';
+        }
+    }
+    
+    // Adjust on load and resize
+    adjustHeight();
+    window.addEventListener('resize', adjustHeight);
+}
 </script>
