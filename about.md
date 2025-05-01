@@ -9,7 +9,7 @@ layout: page
 <h2>Skills</h2>
 
 <ul class="skill-list">
-	<li>HTML - CSS - Javascript - CSS</li>
+	<li>HTML - CSS - Javascript</li>
 	<li>AWS Core Services</li>
 	<li>AI/ML</li>
 	<li>Front End Frameworks (Django, React)</li>
@@ -24,9 +24,3 @@ layout: page
 	<li>TDD Continuous Integration</li>
 </ul>
 
-<h2>Projects</h2>
-
-<ul>
-	<li><a href="https:blog.theawsdev.com">Technical Blog Page</a></li>
-
-</ul>
