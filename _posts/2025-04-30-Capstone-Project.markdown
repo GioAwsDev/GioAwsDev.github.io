@@ -1,5 +1,5 @@
 ---
-title: "Building a Serverless Customer Onboarding App on AWS: Lessons from My Capstone Project"
+title: "Building a Serverless Customer Onboarding App on AWS"
 layout: post
 date: 2025-04-30 16:37
 image: 
