@@ -1,5 +1,5 @@
 ---
-title: Why hire me?
+title: Profile
 layout: page
 description: AWS-certified cloud professional with expertise in healthcare process optimization, automation, and cloud solutions
 ---
