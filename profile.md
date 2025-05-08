@@ -5,9 +5,9 @@ description: AWS-certified cloud professional with expertise in healthcare proce
 keywords: AWS, Cloud Computing, DevOps, Healthcare IT, Automation
 last_modified_at: 2024-05-08
 ---
-<div class="profile-image-container">
+
     ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-</div>
+
 
 <section class="professional-summary">
     <h2>Professional Summary</h2>
@@ -72,7 +72,6 @@ last_modified_at: 2024-05-08
 <section class="certifications">
     <h2>Certifications</h2>
     <div class="certs-container">
-        <a href="https://www.credly.com/users/giovannie-encarnacion" class="credly-link">View on Credly</a>
         <div class="cert-grid">
             <img alt="AWS Cloud Application Developer Graduate" width="100px" src="https://images.credly.com/images/b709da03-24b0-4777-8393-f76c9131b893/blob"/>
             <img alt="Red Hat Certified System Administrator" width="100px" src="https://images.credly.com/images/572de0ba-2c59-4816-a59d-b0e1687e45ee/image.png" />
@@ -82,6 +81,7 @@ last_modified_at: 2024-05-08
             <img alt="AWS Certified Solutions Architect Associate" width="100px" src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" />
             <img alt="AWS Cloud Practitioner" width="100px" src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" />
         </div>
+        <a href="https://www.credly.com/users/giovannie-encarnacion" class="credly-link">View on Credly</a>
     </div>
 </section>
 
@@ -104,7 +104,7 @@ last_modified_at: 2024-05-08
 }
 
 .credly-link:hover {
-    background-color: #005582;
+    background-color:rgb(0, 13, 130);
     transform: translateY(-2px);
     transition: all 0.3s ease;
 }
@@ -144,17 +144,27 @@ last_modified_at: 2024-05-08
     color: white;
 }
 
-
-.profile-image-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px 0; /* Optional: Add spacing around the image */
+.professional-summary {
+    background: #004AAD; /* Blue background */
+    color: white; /* White text */
+    padding: 1.5rem; /* Consistent padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 2rem; /* Spacing below the section */
 }
 
-.profile-image-container img {
-    border-radius: 50%; /* Optional: Make the image circular */
-    max-width: 150px; /* Optional: Adjust the size of the image */
-    height: auto;
+.professional-summary h2 {
+    margin-top: 0;
+    color: white; /* Ensure the heading text is white */
 }
+
+.professional-summary ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.professional-summary li {
+    margin-bottom: 0.5rem;
+}
+
 </style>
