@@ -8,11 +8,17 @@
     <header class="header-home {% if site.animation %}animated{% endif %}">
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
-                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                <picture>
+                    <source srcset="{% if site.external-image %}{{ site.picture | replace: '.jpg', '.webp' }}{% else %}{{ site.url }}/{{ site.picture | replace: '.jpg', '.webp' }}{% endif %}" type="image/webp">
+                    <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                </picture>
             </a>
         {% else %}
             <span class="link">
-                <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                <picture>
+                    <source srcset="{% if site.external-image %}{{ site.picture | replace: '.jpg', '.webp' }}{% else %}{{ site.url }}/{{ site.picture | replace: '.jpg', '.webp' }}{% endif %}" type="image/webp">
+                    <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                </picture>
             </span>
         {% endif %}
 

@@ -1,39 +1,47 @@
-<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}">
-    <ul class="list">
+<nav class="{% if page.title == "Home" %}nav-home{% else %}nav{% endif %}" role="navigation" aria-label="Main navigation">
+    <ul class="list" role="menubar">
         {% if page.title != "Home" %}
-            <li class="item">
-                <a class="link" href="{{ site.url }}/">Home</a>
+            <li class="item" role="menuitem">
+                <a class="link" href="{{ site.url }}/" aria-label="Home">Home</a>
             </li>
         {% endif %}
 
         {% if site.blog == true %}
             {% if page.title != "Blog" %}
-                <li class="item">
-                    <a class="link" href="https://blog.theawsdev.com">Blog</a>
+                <li class="item" role="menuitem">
+                    <a class="link" href="https://blog.theawsdev.com" aria-label="Blog">Blog</a>
                 </li>
             {% endif %}
         {% endif %}
 
         {% if site.projects == true %}
             {% if page.title != "Projects" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/projects">Projects</a>
+                <li class="item" role="menuitem">
+                    <a class="link" href="{{ site.url }}/projects" aria-label="Projects">Projects</a>
                 </li>
             {% endif %}
         {% endif %}
 
         {% if site.about == true %}
             {% if page.title != "About" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/about">About</a>
+                <li class="item" role="menuitem">
+                    <a class="link" href="{{ site.url }}/about" aria-label="About">About</a>
+                </li>
+            {% endif %}
+        {% endif %}
+
+        {% if site.about == true %}
+            {% if page.title != "Why hire me?" %}
+                <li class="item" role="menuitem">
+                    <a class="link" href="{{ site.url }}/about" aria-label="Why hire me?">Why hire me?</a>
                 </li>
             {% endif %}
         {% endif %}
 
         {% if site.resume == true %}
             {% if page.title != "Resume" %}
-                <li class="item">
-                    <a class="link" href="{{ site.url }}/resume">Resume</a>
+                <li class="item" role="menuitem">
+                    <a class="link" href="{{ site.url }}/resume" aria-label="Resume">Resume</a>
                 </li>
             {% endif %}
         {% endif %}
