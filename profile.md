@@ -97,7 +97,7 @@ last_modified_at: 2024-05-08
     display: inline-block;
     margin-bottom: 20px;
     padding: 10px 20px;
-    background-color: #0077b5;
+    background-color: #004AAD;
     color: white;
     text-decoration: none;
     border-radius: 5px;
@@ -127,7 +127,8 @@ last_modified_at: 2024-05-08
 }
 
 .skill-list > li {
-    background: #f8f9fa;
+    background: #004AAD;
+    color: white;
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
@@ -140,7 +141,7 @@ last_modified_at: 2024-05-08
 
 .skill-list h3 {
     margin: 0 0 1rem 0;
-    color: #2c3e50;
+    color: white;
 }
 
 
