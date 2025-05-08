@@ -9,15 +9,31 @@
         {% if site.about %}
             <a class="link" href="{{ site.url }}/about">
                 <picture>
-                    <source srcset="{% if site.external-image %}{{ site.picture | replace: '.jpg', '.webp' }}{% else %}{{ site.url }}/{{ site.picture | replace: '.jpg', '.webp' }}{% endif %}" type="image/webp">
-                    <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                    <source 
+                        srcset="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.baseurl }}/{{ site.picture }}{% endif %}" 
+                        type="image/jpeg"
+                    >
+                    <img 
+                        class="selfie" 
+                        alt="{{ site.title }}" 
+                        src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.baseurl }}/{{ site.picture }}{% endif %}"
+                        onerror="this.onerror=null; console.log('Image failed to load');"
+                    />
                 </picture>
             </a>
         {% else %}
             <span class="link">
                 <picture>
-                    <source srcset="{% if site.external-image %}{{ site.picture | replace: '.jpg', '.webp' }}{% else %}{{ site.url }}/{{ site.picture | replace: '.jpg', '.webp' }}{% endif %}" type="image/webp">
-                    <img class="selfie" alt="{{ site.title }}" src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}" />
+                    <source 
+                        srcset="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.baseurl }}/{{ site.picture }}{% endif %}" 
+                        type="image/jpeg"
+                    >
+                    <img 
+                        class="selfie" 
+                        alt="{{ site.title }}" 
+                        src="{% if site.external-image %}{{ site.picture }}{% else %}{{ site.baseurl }}/{{ site.picture }}{% endif %}"
+                        onerror="this.onerror=null; console.log('Image failed to load');"
+                    />
                 </picture>
             </span>
         {% endif %}

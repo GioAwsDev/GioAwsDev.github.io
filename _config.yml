@@ -1,6 +1,6 @@
 # main text of home
 title: Giovannie Encarnacion
-bio: Business Technical Analyst | AWS Cloud Professional | RHCSA | Process Optimization
+bio: AWS Cloud Professional | RHCSA | Technical Analyst | Cloud Support Engineer
 
 # Add these fields for better SEO
 description: "AWS-certified cloud professional with expertise in healthcare process optimization, automation, and cloud solutions"
@@ -15,6 +15,7 @@ lang: en
 # better with square images
 external-image: false
 picture: assets/images/profile.jpg
+baseurl: ""
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
