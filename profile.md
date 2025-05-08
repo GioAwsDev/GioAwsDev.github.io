@@ -6,20 +6,23 @@ keywords: AWS, Cloud Computing, DevOps, Healthcare IT, Automation
 last_modified_at: 2024-05-08
 ---
 
-    ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 
 <section class="professional-summary">
     <h2>Professional Summary</h2>
     <div class="summary-content">
         <p>My name is Giovannie, and I'm an AWS-certified cloud professional with proven success optimizing healthcare processes and solving high-priority technical issues. I've improved claims efficiency by 15% at Humana through automation and data-driven solutions.</p>
-        <p>Key achievements:</p>
-        <ul>
-            <li>Boosted claims processing efficiency by 15% by designing and implementing XML macro scripts to automate manual steps in Humana’s claims adjudication workflow.</li>
-            <li>Optimized claims tools using Excel and VBA by incorporating advanced logic and Visual Basic macros, increasing speed and accuracy.</li>
-            <li>Won AWS National Jam - 2024 (US TA) by leading a team to solve real-world cloud challenges under time constraints, showcasing hands-on AWS expertise and problem-solving skills.</li>
-        </ul>
     </div>
+</section>
+
+<section class="key-achievements">
+    <h2>Key Achievements</h2>
+    <ul>
+        <li>Boosted claims processing efficiency by 15% by designing and implementing XML macro scripts to automate manual steps in Humana’s claims adjudication workflow.</li>
+        <li>Optimized claims tools using Excel and VBA by incorporating advanced logic and Visual Basic macros, increasing speed and accuracy.</li>
+        <li>Won AWS National Jam - 2024 (US TA) by leading a team to solve real-world cloud challenges under time constraints, showcasing hands-on AWS expertise and problem-solving skills.</li>
+    </ul>
 </section>
 
 <section class="skills">
@@ -81,7 +84,9 @@ last_modified_at: 2024-05-08
             <img alt="AWS Certified Solutions Architect Associate" width="100px" src="https://images.credly.com/size/340x340/images/0e284c3f-5164-4b21-8660-0d84737941bc/image.png" />
             <img alt="AWS Cloud Practitioner" width="100px" src="https://images.credly.com/size/340x340/images/00634f82-b07f-4bbd-a6bb-53de397fc3a6/image.png" />
         </div>
+        <br>
         <a href="https://www.credly.com/users/giovannie-encarnacion" class="credly-link">View on Credly</a>
+        </br>
     </div>
 </section>
 
@@ -164,6 +169,29 @@ last_modified_at: 2024-05-08
 }
 
 .professional-summary li {
+    margin-bottom: 0.5rem;
+}
+
+.key-achievements {
+    background: #004AAD; /* Blue background */
+    color: white; /* White text */
+    padding: 1.5rem; /* Consistent padding */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin-bottom: 2rem; /* Spacing below the section */
+}
+
+.key-achievements h2 {
+    margin-top: 0;
+    color: white; /* Ensure the heading text is white */
+}
+
+.key-achievements ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.key-achievements li {
     margin-bottom: 0.5rem;
 }
 
