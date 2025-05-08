@@ -5,10 +5,7 @@ description: AWS-certified cloud professional with expertise in healthcare proce
 keywords: AWS, Cloud Computing, DevOps, Healthcare IT, Automation
 last_modified_at: 2024-05-08
 ---
-
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
-
-
+<!-- ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %}) -->
 <section class="professional-summary">
     <h2>Professional Summary</h2>
     <div class="summary-content">
