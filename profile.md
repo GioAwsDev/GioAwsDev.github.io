@@ -142,7 +142,7 @@ last_modified_at: 2024-05-08
     margin: 0 0 1rem 0;
     color: #2c3e50;
 }
-</style>
+
 
 .profile-image-container {
     display: flex;
@@ -156,4 +156,4 @@ last_modified_at: 2024-05-08
     max-width: 150px; /* Optional: Adjust the size of the image */
     height: auto;
 }
-
+</style>
