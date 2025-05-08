@@ -11,6 +11,9 @@ lang: en
 # twitter summary info
 # description: A blog about AWS stuffs
 
+hashnode: TheAwsDev
+# your hashnode username, if you don't have one, comment the line
+
 # if it's an external image, update below for true
 # better with square images
 external-image: false

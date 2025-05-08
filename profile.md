@@ -2,51 +2,72 @@
 title: Profile
 layout: page
 description: AWS-certified cloud professional with expertise in healthcare process optimization, automation, and cloud solutions
+keywords: AWS, Cloud Computing, DevOps, Healthcare IT, Automation
+last_modified_at: 2024-05-08
 ---
-![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+<div class="profile-image-container">
+    ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
+</div>
 
-<p>My name is Giovannie and I'm an AWS-certified cloud professional with proven success optimizing healthcare processes and solving high-priority technical issues.  I've improved claims efficiency by 15% at Humana through automation and data-driven solutions. Skilled in AWS, Terraform, scripting, and cross-functional collaboration. Strong communicator with a track record of aligning business and tech teams to deliver scalable, secure, and high-impact solutions. Ready to drive innovation and add value from day one.</p>
+<section class="professional-summary">
+    <h2>Professional Summary</h2>
+    <div class="summary-content">
+        <p>My name is Giovannie, and I'm an AWS-certified cloud professional with proven success optimizing healthcare processes and solving high-priority technical issues. I've improved claims efficiency by 15% at Humana through automation and data-driven solutions.</p>
+        <p>Key achievements:</p>
+        <ul>
+            <li>Boosted claims processing efficiency by 15% by designing and implementing XML macro scripts to automate manual steps in Humana’s claims adjudication workflow.</li>
+            <li>Optimized claims tools using Excel and VBA by incorporating advanced logic and Visual Basic macros, increasing speed and accuracy.</li>
+            <li>Won AWS National Jam - 2024 (US TA) by leading a team to solve real-world cloud challenges under time constraints, showcasing hands-on AWS expertise and problem-solving skills.</li>
+        </ul>
+    </div>
+</section>
 
-<h2>Skills</h2>
-
-<ul class="skill-list">
-    <li>Cloud & Infrastructure
-        <ul>
-            <li>AWS Core Services</li>
-			<li>Infrastructure as Code (Terraform, Cloudformation)</li>
-			<li>CI/CD</li>
-            <li>Docker</li>
-        </ul>
-    </li>
-    <li>Development
-        <ul>
-            <li>Python</li>
-            <li>HTML/CSS/JavaScript</li>
-            <li>Bash Scripting</li>
-        </ul>
-    </li>
-    <li>Frameworks & Tools
-        <ul>
-            <li>React</li>
-            <li>Django</li>
-            <li>Git</li>
-        </ul>
-    </li>
-    <li>Data & AI
-        <ul>
-            <li>AI/ML</li>
-            <li>MySQL</li>
-        </ul>
-    </li>
-    <li>Technical Support & Reliability
-        <ul>
-            <li>Tier 3 Triage</li>
-            <li>Incident Response</li>
-            <li>Root cause analysis</li>
-			<li>Splunk</li>
-        </ul>
-    </li>
-</ul>
+<section class="skills">
+    <h2>Skills</h2>
+    <ul class="skill-list">
+        <li>
+            <h3>Cloud & Infrastructure</h3>
+            <ul>
+                <li>AWS Core Services (EC2, S3, RDS, Lambda)</li>
+                <li>Infrastructure as Code (Terraform, CloudFormation)</li>
+                <li>CI/CD (Jenkins, GitHub Actions)</li>
+                <li>Docker & Kubernetes</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Development</h3>
+            <ul>
+                <li>Python</li>
+                <li>HTML/CSS/JavaScript</li>
+                <li>Bash Scripting</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Frameworks & Tools</h3>
+            <ul>
+                <li>React</li>
+                <li>Django</li>
+                <li>Git & GitHub</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Data & AI</h3>
+            <ul>
+                <li>AI/ML (Amazon Bedrock, SageMaker)</li>
+                <li>MySQL</li>
+            </ul>
+        </li>
+        <li>
+            <h3>Technical Support & Reliability</h3>
+            <ul>
+                <li>Tier 3 Triage</li>
+                <li>Incident Response</li>
+                <li>Root Cause Analysis</li>
+                <li>Splunk</li>
+            </ul>
+        </li>
+    </ul>
+</section>
 
 <section class="certifications">
     <h2>Certifications</h2>
@@ -81,5 +102,58 @@ description: AWS-certified cloud professional with expertise in healthcare proce
     text-decoration: none;
     border-radius: 5px;
 }
+
+.credly-link:hover {
+    background-color: #005582;
+    transform: translateY(-2px);
+    transition: all 0.3s ease;
+}
+
+.cert-grid img {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.cert-grid img:hover {
+    transform: scale(1.1);
+}
+
+.skill-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    padding: 0;
+    list-style: none;
+}
+
+.skill-list > li {
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.skill-list > li > ul {
+    margin-top: 1rem;
+    padding-left: 1.5rem;
+}
+
+.skill-list h3 {
+    margin: 0 0 1rem 0;
+    color: #2c3e50;
+}
 </style>
+
+.profile-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0; /* Optional: Add spacing around the image */
+}
+
+.profile-image-container img {
+    border-radius: 50%; /* Optional: Make the image circular */
+    max-width: 150px; /* Optional: Adjust the size of the image */
+    height: auto;
+}
 
