@@ -1,6 +1,12 @@
 # main text of home
 title: Giovannie Encarnacion
-bio: A Person who travels the Clouds
+bio: Business Technical Analyst | AWS Cloud Professional | RHCSA | Process Optimization
+
+# Add these fields for better SEO
+description: "AWS-certified cloud professional with expertise in healthcare process optimization, automation, and cloud solutions"
+keywords: "AWS, Cloud Computing, DevOps, Infrastructure as Code, Python"
+author: Giovannie Encarnacion
+lang: en
 
 # twitter summary info
 # description: A blog about AWS stuffs

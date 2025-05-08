@@ -1,13 +1,13 @@
-# Personal Website
+# Personal Quickview Landing Page
 
 This repository hosts my personal branding website, showcasing my professional journey, projects, and expertise in AWS and cybersecurity.
 
 ## 🌐 Website Overview
 
-My personal website serves as a centralized hub for:
+My quickview website serves as a centralized hub for:
 - Professional background and experience
-- Technical blog posts about AWS and cybersecurity
-- Project portfolio
+- Link to tech blog posts about AWS and cybersecurity
+- Projects
 - Professional resume
 - Contact information
 
