@@ -86,7 +86,6 @@ last_modified_at: 2024-05-08
         </div>
         <br>
         <a href="https://www.credly.com/users/giovannie-encarnacion" class="credly-link">View on Credly</a>
-        </br>
     </div>
 </section>
 
