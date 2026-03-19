@@ -53,13 +53,6 @@ last_modified_at: 2024-05-08
             </ul>
         </li>
         <li>
-            <h3>Data & AI</h3>
-            <ul>
-                <li>AI/ML (Amazon Bedrock, SageMaker)</li>
-                <li>MySQL</li>
-            </ul>
-        </li>
-        <li>
             <h3>Technical Support & Reliability</h3>
             <ul>
                 <li>Tier 3 Triage</li>
