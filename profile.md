@@ -9,7 +9,7 @@ last_modified_at: 2024-05-08
 <section class="professional-summary">
     <h2>Professional Summary</h2>
     <div class="summary-content">
-        <p>My name is Giovannie, and I'm an AWS-certified cloud professional with proven success optimizing healthcare processes and solving high-priority technical issues. I've improved claims efficiency by 15% at Humana through automation and data-driven solutions.</p>
+        <p>Infrastructure focused IT professional with experience supporting enterprise systems, troubleshooting incidents, and building a strong foundation in Linux, networking, and cloud technologies.</p>
     </div>
 </section>
 
@@ -17,8 +17,8 @@ last_modified_at: 2024-05-08
     <h2>Key Achievements</h2>
     <ul>
         <li>Boosted claims processing efficiency by 15% by designing and implementing XML macro scripts to automate manual steps in Humana’s claims adjudication workflow.</li>
-        <li>Optimized claims tools using Excel and VBA by incorporating advanced logic and Visual Basic macros, increasing speed and accuracy.</li>
-        <li>Won AWS National Jam - 2024 (US TA) by leading a team to solve real-world cloud challenges under time constraints, showcasing hands-on AWS expertise and problem-solving skills.</li>
+        <li>Achieved an 85% first-resolution rate while triaging Tier 3 incidents, restoring critical systems within SLA requirements.</li>
+        <li>Identified and analyzed recurring system issues, contributing to improved troubleshooting workflows and increased system reliability.</li>
     </ul>
 </section>
 
@@ -31,23 +31,25 @@ last_modified_at: 2024-05-08
                 <li>AWS Core Services (EC2, S3, RDS, Lambda)</li>
                 <li>Infrastructure as Code (Terraform, CloudFormation)</li>
                 <li>CI/CD (Jenkins, GitHub Actions)</li>
-                <li>Docker & Kubernetes</li>
             </ul>
         </li>
         <li>
-            <h3>Development</h3>
+            <h3>Networking</h3>
             <ul>
-                <li>Python</li>
-                <li>HTML/CSS/JavaScript</li>
-                <li>Bash Scripting</li>
+                <li>TCP/IP</li>
+                <li>Routing & Switching</li>
+                <li>NAT</li>
+                <li>DHCP</li>
+                <li>DNS</li>
+                <li>OSI Model</li>
             </ul>
         </li>
         <li>
-            <h3>Frameworks & Tools</h3>
+            <h3>Linux Administration</h3>
             <ul>
-                <li>React</li>
-                <li>Django</li>
-                <li>Git & GitHub</li>
+                <li>User & group management, permissions, and access control</li>
+                <li>Networking configuration and troubleshooting (IP, DNS, SSH)</li>
+                <li>Process management, system monitoring, and log analysis</li>
             </ul>
         </li>
         <li>
@@ -73,6 +75,7 @@ last_modified_at: 2024-05-08
     <h2>Certifications</h2>
     <div class="certs-container">
         <div class="cert-grid">
+            <img align="left" alt="GioAwsDev | CCNA" width="100px" src="https://images.credly.com/size/340x340/images/683783d8-eaac-4c37-a14d-11bd8a36321d/ccna_600.png" />
             <img alt="AWS Cloud Application Developer Graduate" width="100px" src="https://images.credly.com/images/b709da03-24b0-4777-8393-f76c9131b893/blob"/>
             <img alt="Red Hat Certified System Administrator" width="100px" src="https://images.credly.com/images/572de0ba-2c59-4816-a59d-b0e1687e45ee/image.png" />
             <img alt="CompTIA Security+" width="100px" src="https://images.credly.com/size/340x340/images/80d8a06a-c384-42bf-ad36-db81bce5adce/blob" />
